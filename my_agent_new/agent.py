@@ -4,12 +4,10 @@ from google.adk.tools.mcp_tool.mcp_session_manager import StreamableHTTPConnecti
 
 root_agent = Agent(
     model='gemini-2.5-flash',
-    name='root_agent',
-    description='An expert otaku assistant for discovering anime.',
+    name='jnjknio',
+    description='jnjknio',
     instruction="""
-        You are an Anime Show Finder. Help users find anime based on 
-        genre, mood, or similar shows they enjoy. 
-        Always provide the Title, a brief synopsis, and where to watch.
+        njnoj
     """,
     tools=[
         McpToolset(
@@ -17,5 +15,5 @@ root_agent = Agent(
                 url="https://aeo-mcp-server.amdal-dev.workers.dev/mcp",
             ),
         )
-    ],
+    ]
 )
